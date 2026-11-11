@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#171a16">
+<meta name="description" content="A Nexora concept website for Salstan Architecture — architecture, planning, engineering and build in London.">
+<title>Salstan Architecture | Designed Around Living</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#20231f;--muted:#70766e;--paper:#f5f4ef;--white:#fff;--olive:#66735c;--line:#dedfd7;--dark:#171a16;--serif:Georgia,serif;--sans:"DM Sans",sans-serif;--display:"Manrope",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}.wrap{width:min(1180px,calc(100% - 48px));margin:auto}.notice{background:#e9e8df;color:#54594f;text-align:center;font-size:11px;letter-spacing:.13em;text-transform:uppercase;padding:8px 12px}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:rgba(245,244,239,.94);position:sticky;top:0;z-index:20;backdrop-filter:blur(14px)}.navin{display:flex;align-items:center;justify-content:space-between;width:min(1180px,calc(100% - 48px));margin:auto}.logo{font:800 22px var(--display);letter-spacing:.16em}.logo small{display:block;font:500 8px var(--sans);letter-spacing:.34em;color:var(--muted);margin-top:-2px}.links{display:flex;align-items:center;gap:32px;font-size:13px;color:#555b52}.links a:hover{color:var(--olive)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:14px 20px;background:var(--dark);color:white;border:1px solid var(--dark);font-size:12px;letter-spacing:.04em;transition:.25s;cursor:pointer}.btn:hover{background:var(--olive);border-color:var(--olive);transform:translateY(-2px)}.btn.light{background:transparent;color:var(--ink);border-color:#aeb2a7}.btn.light:hover{background:var(--dark);color:white}.menu{display:none;background:none;border:0;font-size:25px}.hero{padding:34px 0 76px}.hero-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:center;min-height:570px}.eyebrow{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--olive);font-weight:700}.hero h1{font:500 clamp(46px,6.1vw,82px)/1.05 var(--display);letter-spacing:-.065em;margin:22px 0}.hero h1 em{font-family:var(--serif);font-weight:400;letter-spacing:-.06em;color:var(--olive)}.hero p{max-width:420px;color:var(--muted);font-size:15px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.hero-note{display:flex;align-items:center;gap:12px;margin-top:42px;color:var(--muted);font-size:11px}.dot{width:7px;height:7px;background:var(--olive);border-radius:50%}.hero-image{height:570px;position:relative;overflow:hidden;background:#c8c9bf}.hero-image img{width:100%;height:100%;object-fit:cover;display:block}.image-tag{position:absolute;bottom:22px;left:22px;background:rgba(245,244,239,.94);padding:14px 18px;font-size:10px;letter-spacing:.13em;text-transform:uppercase}.section{padding:100px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:46px}.section h2{font:500 clamp(34px,4.4vw,56px)/1.1 var(--display);letter-spacing:-.055em;margin:12px 0 0}.section-intro{max-width:390px;color:var(--muted);font-size:14px}.services{background:#e9e9e1}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #cfd1c7;border-left:1px solid #cfd1c7}.service{padding:27px 26px 32px;border-right:1px solid #cfd1c7;border-bottom:1px solid #cfd1c7;min-height:210px;transition:.25s}.service:hover{background:#f4f3ee}.num{font-size:10px;color:var(--olive);letter-spacing:.15em}.service h3{font:600 20px var(--display);margin:34px 0 9px}.service p{font-size:13px;color:var(--muted);max-width:270px;margin:0}.projects{background:var(--dark);color:#f5f4ef}.projects .section-intro{color:#b5b9ae}.project-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}.project-card{position:relative;min-height:430px;overflow:hidden;background:#343a32}.project-card:nth-child(2){margin-top:70px;min-height:360px}.project-card img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .7s}.project-card:hover img{transform:scale(1.04)}.project-card:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.7))}.project-caption{position:absolute;bottom:24px;left:26px;z-index:1}.project-caption small{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:#d9ded2}.project-caption h3{font:500 27px var(--display);margin:7px 0}.project-caption p{font-size:12px;color:#e1e3dc;margin:0}.project-disclaimer{color:#aeb4a8;font-size:11px;margin-top:18px}.approach-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px}.approach-copy p{color:var(--muted);font-size:14px;max-width:360px}.steps{border-top:1px solid var(--line)}.step{display:grid;grid-template-columns:55px 1fr;gap:15px;padding:22px 0;border-bottom:1px solid var(--line)}.step span{font-size:11px;color:var(--olive);padding-top:3px}.step h3{font:600 17px var(--display);margin:0 0 4px}.step p{font-size:12px;color:var(--muted);margin:0}.band{background:#e7e8df;padding:70px 0}.band-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}.band h2{font:500 clamp(30px,4vw,48px)/1.12 var(--display);letter-spacing:-.05em;margin:10px 0}.band p{color:var(--muted);font-size:13px;max-width:420px}.faq-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px}.faq-item{border-bottom:1px solid var(--line)}.faq-q{display:flex;justify-content:space-between;gap:20px;width:100%;background:none;border:0;text-align:left;padding:21px 0;font:600 15px var(--display);cursor:pointer}.faq-a{display:none;color:var(--muted);font-size:13px;padding:0 30px 20px 0}.faq-item.open .faq-a{display:block}.contact{background:var(--dark);color:#f5f4ef}.contact .section-intro{color:#b5b9ae}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px}.contact-details{margin-top:35px}.contact-details div{margin:20px 0}.contact-details small{display:block;color:#aeb4a8;font-size:10px;letter-spacing:.16em;text-transform:uppercase}.contact-details a,.contact-details p{font-size:14px}.form{display:grid;grid-template-columns:1fr 1fr;gap:17px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#b5b9ae}.field input,.field textarea,.field select{background:#222720;border:1px solid #41483d;color:white;padding:13px;outline:none}.field input:focus,.field textarea:focus,.field select:focus{border-color:#a5b296}.field textarea{min-height:110px;resize:vertical}.form-note{font-size:10px;color:#aeb4a8;grid-column:1/-1}.footer{padding:24px 0;background:#11140f;color:#aeb4a8;font-size:10px}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer strong{color:#f5f4ef;letter-spacing:.12em}.mobile-cta{display:none}
+@media(max-width:850px){.links{gap:17px}.hero-grid{grid-template-columns:1fr 1fr;gap:25px}.hero-image{height:480px}.hero-grid{min-height:480px}.approach-grid,.faq-grid,.contact-grid{gap:40px}.section{padding:78px 0}}
+@media(max-width:650px){.wrap,.navin{width:min(100% - 34px,1180px)}.nav{height:70px}.menu{display:block}.links{display:none;position:absolute;top:70px;left:0;right:0;background:var(--paper);padding:22px 25px 26px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.links.show{display:flex}.nav-cta{display:none}.hero{padding:22px 0 55px}.hero-grid{grid-template-columns:1fr;gap:28px;min-height:0}.hero h1{font-size:54px;margin:17px 0}.hero p{font-size:14px}.hero-image{height:390px}.hero-note{margin-top:25px}.section{padding:68px 0}.section-head{display:block;margin-bottom:30px}.section-intro{margin-top:17px}.service-grid{grid-template-columns:1fr 1fr}.service{padding:20px 16px;min-height:190px}.service h3{font-size:17px;margin-top:25px}.service p{font-size:12px}.project-grid{grid-template-columns:1fr}.project-card,.project-card:nth-child(2){min-height:330px;margin:0}.approach-grid,.faq-grid,.contact-grid{grid-template-columns:1fr;gap:28px}.band{padding:55px 0}.band-inner{display:block}.band .btn{margin-top:15px}.form{grid-template-columns:1fr}.field.full{grid-column:auto}.form-note{grid-column:auto}.mobile-cta{display:block;position:fixed;bottom:12px;left:12px;right:12px;z-index:15;box-shadow:0 8px 30px #0003}.mobile-cta .btn{width:100%}.footer{padding-bottom:90px}}
+</style>
+</head>
+<body>
+<div class="notice">Independent website concept · Prepared by Nexora</div>
+<header class="nav">
+  <div class="navin">
+    <a class="logo" href="#top" aria-label="Salstan home">SALSTAN<small>ARCHITECTURE · ENGINEERING · BUILD</small></a>
+    <button class="menu" aria-label="Open navigation" onclick="document.querySelector('.links').classList.toggle('show')">☰</button>
+    <nav class="links">
+      <a href="#services">Services</a><a href="#projects">Projects</a><a href="#approach">Our approach</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn nav-cta" href="#contact">Start a conversation ↗</a>
+  </div>
+</header>
+<main id="top">
+<section class="hero">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="eyebrow">London · Architecture & design-build</div>
+   <h1>Spaces made for <em>living.</em></h1>
+   <p>Thoughtful architecture, clear planning guidance and practical delivery — bringing your next home project together from first idea to final detail.</p>
+   <div class="actions"><a class="btn" href="#contact">Discuss your project ↗</a><a class="btn light" href="#projects">Explore the work</a></div>
+   <div class="hero-note"><span class="dot"></span> Architecture · Planning · Structural design · Construction</div>
+  </div>
+  <div class="hero-image">
+   <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85" alt="Contemporary home with warm natural materials and generous glazing">
+   <div class="image-tag">Considered design. Everyday comfort.</div>
+  </div>
+ </div>
+</section>
+<section class="section services" id="services">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">What we do</div><h2>One team. A clearer<br>way to build.</h2></div><p class="section-intro">A connected service for homeowners and developers — bringing design, technical expertise and construction support into one coordinated journey.</p></div>
+  <div class="service-grid">
+   <article class="service"><span class="num">01 / DESIGN</span><h3>Architecture & drawings</h3><p>Practical, considered designs and technical drawings shaped around your property and ambitions.</p></article>
+   <article class="service"><span class="num">02 / PLANNING</span><h3>Planning permission</h3><p>Guidance through planning routes, applications and the information your project needs.</p></article>
+   <article class="service"><span class="num">03 / SPACE</span><h3>House extensions</h3><p>Make more room for the way you live, with layouts that connect naturally to your home.</p></article>
+   <article class="service"><span class="num">04 / POTENTIAL</span><h3>Loft conversions</h3><p>Unlock the potential above, with carefully planned spaces and a considered design.</p></article>
+   <article class="service"><span class="num">05 / STRUCTURE</span><h3>Structural engineering</h3><p>Structural calculations and engineering coordination to support safe, buildable designs.</p></article>
+   <article class="service"><span class="num">06 / DELIVERY</span><h3>Building & construction</h3><p>Construction support to help carry the design through to the finished space.</p></article>
+  </div>
+ </div>
+</section>
+<section class="section projects" id="projects">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Selected project directions</div><h2>Good design changes<br>how a space feels.</h2></div><p class="section-intro">A visual direction for presenting residential transformations, extensions and considered contemporary spaces.</p></div>
+  <div class="project-grid">
+   <article class="project-card"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=85" alt="Contemporary residential extension with indoor outdoor connection"><div class="project-caption"><small>Residential · Concept imagery</small><h3>Room to reconnect</h3><p>Light-filled living, made for everyday moments.</p></div></article>
+   <article class="project-card"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85" alt="Minimal contemporary interior with warm timber finishes"><div class="project-caption"><small>Interior · Concept imagery</small><h3>Quietly considered</h3><p>Natural materials and thoughtful detail.</p></div></article>
+  </div>
+  <p class="project-disclaimer">Images are illustrative design references, not confirmed Salstan project photography. Replace with approved portfolio images before launch.</p>
+ </div>
+</section>
+<section class="section" id="approach">
+ <div class="wrap approach-grid">
+  <div class="approach-copy"><div class="eyebrow">A joined-up process</div><h2>From first thought<br>to finished space.</h2><p>Good projects start with listening. A clear process helps keep decisions connected, expectations realistic and each stage moving in the right direction.</p><a class="btn light" href="#contact">Talk through an idea ↗</a></div>
+  <div class="steps">
+   <div class="step"><span>01</span><div><h3>Understand the brief</h3><p>Talk through your property, priorities, budget and what you want to achieve.</p></div></div>
+   <div class="step"><span>02</span><div><h3>Survey & develop a design</h3><p>Build an understanding of the site and develop a considered design response.</p></div></div>
+   <div class="step"><span>03</span><div><h3>Planning & technical detail</h3><p>Coordinate the relevant planning, building regulation and structural information.</p></div></div>
+   <div class="step"><span>04</span><div><h3>Prepare for delivery</h3><p>Bring the design and construction requirements together for the next stage.</p></div></div>
+  </div>
+ </div>
+</section>
+<section class="band"><div class="wrap band-inner"><div><div class="eyebrow">Your next chapter starts here</div><h2>Have a project in mind?</h2><p>Tell us a little about what you are planning. The first conversation is a chance to explore the possibilities and understand the next steps.</p></div><a class="btn" href="#contact">Make an enquiry ↗</a></div></section>
+<section class="section" id="faq">
+ <div class="wrap faq-grid">
+  <div><div class="eyebrow">A few useful answers</div><h2>Start with<br>the essentials.</h2></div>
+  <div>
+   <div class="faq-item"><button class="faq-q">What kind of projects can you help with? <span>＋</span></button><div class="faq-a">The concept highlights services listed on Salstan's public website, including house extensions, loft conversions, planning permission, structural engineering, building regulations and construction.</div></div>
+   <div class="faq-item"><button class="faq-q">Do I need planning permission? <span>＋</span></button><div class="faq-a">It depends on the property and the proposed work. The right first step is to discuss the project and confirm which planning route may apply.</div></div>
+   <div class="faq-item"><button class="faq-q">Can design and construction be coordinated? <span>＋</span></button><div class="faq-a">Salstan describes a design-and-build service on its public website. Contact the team to discuss what support is suitable for your project.</div></div>
+  </div>
+ </div>
+</section>
+<section class="section contact" id="contact">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Let's talk</div><h2>Tell us what you're<br>thinking about.</h2></div><p class="section-intro">Share a few details and start a conversation with the Salstan team.</p></div>
+  <div class="contact-grid">
+   <div>
+    <p style="color:#b5b9ae;font-size:13px;max-width:330px">For project enquiries, contact Salstan directly using the details below or send an enquiry by email.</p>
+    <div class="contact-details">
+     <div><small>Email</small><a href="mailto:hello@salstan.co.uk">hello@salstan.co.uk ↗</a></div>
+     <div><small>Park Royal</small><p>2 Lakeside Dr, London NW10 7FQ<br><a href="tel:+442031612637">020 3161 2637</a></p></div>
+     <div><small>Teddington</small><p>Causeway House, 13 The Causeway,<br>Teddington, TW11 0JR<br><a href="tel:+442073023111">020 7302 3111</a></p></div>
+     <div><small>Official website</small><a href="https://www.salstan.co.uk/" target="_blank" rel="noopener">salstan.co.uk ↗</a></div>
+    </div>
+   </div>
+   <form class="form" id="enquiry">
+    <div class="field"><label for="name">Your name</label><input id="name" name="name" required placeholder="Name"></div>
+    <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div>
+    <div class="field full"><label for="type">What are you planning?</label><select id="type" name="type"><option>House extension</option><option>Loft conversion</option><option>Planning permission</option><option>Structural engineering</option><option>New build</option><option>Other project</option></select></div>
+    <div class="field full"><label for="message">A little about your project</label><textarea id="message" name="message" required placeholder="Tell us about the property and what you have in mind..."></textarea></div>
+    <button class="btn field full" type="submit">Prepare email enquiry ↗</button>
+    <p class="form-note">Demo interaction: this button opens your email app with a pre-filled message to Salstan. No information is stored by this concept website.</p>
+   </form>
+  </div>
+ </div>
+</section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span><strong>SALSTAN</strong> &nbsp; Architecture · Engineering · Build</span><span>Independent concept by Nexora · Not an official Salstan website</span><span>© <span id="year"></span> Concept preview</span></div></footer>
+<div class="mobile-cta"><a class="btn" href="#contact">Discuss your project ↗</a></div>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>{const item=q.parentElement;item.classList.toggle('open');q.querySelector('span').textContent=item.classList.contains('open')?'−':'＋'}));
+document.getElementById('enquiry').addEventListener('submit',e=>{e.preventDefault();const d=new FormData(e.target);const subject=encodeURIComponent('Project enquiry — '+d.get('type'));const body=encodeURIComponent('Name: '+d.get('name')+'\nEmail: '+d.get('email')+'\nProject: '+d.get('type')+'\n\n'+d.get('message'));window.location.href='mailto:hello@salstan.co.uk?subject='+subject+'&body='+body;});
+document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.links').classList.remove('show')));
+</script>
+</body>
+</html>
